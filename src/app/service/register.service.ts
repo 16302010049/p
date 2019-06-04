@@ -1,6 +1,6 @@
 import {Injectable} from '@angular/core';
 import {HttpClient, HttpHeaders} from '@angular/common/http';
-import {user} from '../dataType/user';
+import {user} from '../datatyp/user';
 import {serialize} from '@angular/compiler/src/i18n/serializers/xml_helper';
 
 const httpOptions = {

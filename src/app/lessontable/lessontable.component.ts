@@ -1,10 +1,10 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
-import {Course} from '../dataType/course';
+import {Course} from '../datatyp/course';
 import {UUID} from 'angular2-uuid';
 import {LessonService} from '../service/lesson.service';
 import {MatHorizontalStepper, MatStepper} from '@angular/material';
-import {stu_info} from '../dataType/course_student';
+import {stu_info} from '../datatyp/course_student';
 
 let lesson = {} as Course;
 

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Course, singleChoice} from '../dataType/course';
+import {Course, singleChoice} from '../datatyp/course';
 import {LessonService} from '../service/lesson.service';
 import {SectiondialogComponent} from '../sectiondialog/sectiondialog.component';
 import {MatDialog} from '@angular/material';

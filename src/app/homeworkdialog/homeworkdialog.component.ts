@@ -1,9 +1,9 @@
 import {Component, Inject, Input, OnInit, QueryList, ViewChild, ViewChildren} from '@angular/core';
-import {Answer_record} from '../dataType/answer_record';
+import {Answer_record} from '../datatyp/answer_record';
 import {StudentService} from '../service/student.service';
-import {Course_student} from '../dataType/course_student';
-import {Course, question} from '../dataType/course';
-import {Student} from '../dataType/student';
+import {Course_student} from '../datatyp/course_student';
+import {Course, question} from '../datatyp/course';
+import {Student} from '../datatyp/student';
 import {MAT_DIALOG_DATA, MatDialogRef, MatTable} from '@angular/material';
 
 export interface PeriodicElement {

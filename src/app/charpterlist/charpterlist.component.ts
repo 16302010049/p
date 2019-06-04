@@ -1,10 +1,10 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {Chatpter, Course, section} from '../dataType/course';
+import {Chatpter, Course, section} from '../datatyp/course';
 import {MatDialog} from '@angular/material';
 import {SectiondialogComponent} from '../sectiondialog/sectiondialog.component';
 import {ChapterdialogComponent} from '../chapterdialog/chapterdialog.component';
 import {LessonService} from '../service/lesson.service';
-import {Index} from '../dataType';
+import {Index} from '../datatyp';
 import {RenamedialogComponent} from '../renamedialog/renamedialog.component';
 
 let se = {} as section;

@@ -1,5 +1,5 @@
 import {Component, Input, OnInit, ViewChild} from '@angular/core';
-import {Course} from '../dataType/course';
+import {Course} from '../datatyp/course';
 
 @Component({
   selector: 'app-lessontab',

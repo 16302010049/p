@@ -1,5 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {Course, question} from '../dataType/course';
+import {Course, question} from '../datatyp/course';
 import {LessonService} from '../service/lesson.service';
 
 let qa = {} as question;

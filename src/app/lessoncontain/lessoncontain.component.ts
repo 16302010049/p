@@ -1,9 +1,9 @@
 import {Component, Inject, Input, OnInit} from '@angular/core';
-import {Chatpter, Course, section} from '../dataType/course';
+import {Chatpter, Course, section} from '../datatyp/course';
 import {MAT_DIALOG_DATA, MatDialog, MatDialogRef} from '@angular/material';
 import {ChapterdialogComponent} from '../chapterdialog/chapterdialog.component';
 import {LocationStrategy} from '@angular/common';
-import {Index} from '../dataType';
+import {Index} from '../datatyp';
 
 // tslint:disable-next-line:prefer-const
 

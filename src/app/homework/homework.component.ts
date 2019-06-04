@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {Course} from '../dataType/course';
-import {Index} from '../dataType';
+import {Course} from '../datatyp/course';
+import {Index} from '../datatyp';
 
 @Component({
   selector: 'app-homework',

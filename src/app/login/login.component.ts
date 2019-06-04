@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {user} from '../dataType/user';
+import {user} from '../datatyp/user';
 import {LoginService} from '../service/login.service';
 import {GlobalService} from '../service/global.service';
 

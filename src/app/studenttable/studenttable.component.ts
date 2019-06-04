@@ -1,8 +1,8 @@
 import {Component, OnInit, ViewChild} from '@angular/core';
-import {Course_student} from '../dataType/course_student';
-import {Course} from '../dataType/course';
+import {Course_student} from '../datatyp/course_student';
+import {Course} from '../datatyp/course';
 import {StudentService} from '../service/student.service';
-import {Student} from '../dataType/student';
+import {Student} from '../datatyp/student';
 import {MatTable} from '@angular/material';
 
 export interface PeriodicElement {
